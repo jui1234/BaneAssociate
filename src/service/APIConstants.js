@@ -1,0 +1,50 @@
+export const USER = "/user/"
+export const SignupReq = "/user/register-request"
+export const SignUp = "/user/signup"
+export const LoginReq = "/user/login-request"
+export const Login = "/user/login"
+export const ProfileUpdate = "/user/update-profile"
+export const UserList = "/user/userlist"
+
+export const PROJECT = "/project"
+
+export const ADD_PROJECT = "/project/create-project"
+export const EDIT_PROJECT = "/project/edit-project"
+export const GET_PROJECT = "/project/get-device"
+export const ADD_MEMBER_TO_PROJECT = "/project/add-member"
+export const REMOVE_MEMBER_TO_PROJECT = "/project/remove-member"
+export const GET_ALL_PROJECTS = "/project/get-projects"
+export const GET_ALL_SOURCES = "/project/get-sources"
+
+export const ADD_DEVICE = "/project/create-device"
+export const GET_DEVICE = "/project/get-device"
+export const REMOVE_DEVICE = "/project/delete-device"
+
+export const ADD_SOURCE = "/project/create-source"
+export const GET_SOURCE = "/project/get-source"
+export const EDIT_SOURCE = "/project/edit-source"
+export const REMOVE_SOURCE = "/project/delete-source"
+
+export const LOG = "/log"
+export const SENT_LOG = "/log/send"
+export const GET_LOG_BY_SOURCE = "/log/log-by-source/"
+export const GET_ALL_LOGS = "/log/getlogs"
+
+export const BUCKET = "/bucket"
+export const CREATE_BUCKET = "/bucket/"
+export const GET_BUCKET = "/bucket/"
+export const UPDATE_BUCKET = "/bucket/"
+export const DELETE_BUCKET = "/bucket/"
+
+export const VIEW = "/view/"
+export const GET_ALL_VIEW = "/view/get-views"
+export const ADD_MEMBER_ALERT = "view/add-team"
+
+export const ALERT = "/alert/"
+export const GET_ALL_ALERT = "/alert/get-alerts"
+export const GET_GRAPH_ALERT="/alert/graph-alert"
+
+// export const CREATE_BUCKET="/bucket/"
+// export const GET_BUCKET="/bucket/"
+// export const UPDATE_BUCKET="/bucket/"
+// export const DELETE_BUCKET="/bucket/"
